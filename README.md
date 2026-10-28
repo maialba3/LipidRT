@@ -20,6 +20,8 @@ The development version of LipidRT can be installed directly from GitHub:
 ```r
 # Install remotes if necessary
 install.packages("remotes")
+# Install shiny packages if necessary
+install.packages(c("shiny", "shinythemes", "shinyjs", "plotly"))
 
 # Install LipidRT
 remotes::install_github("maialba3/LipidRT")
