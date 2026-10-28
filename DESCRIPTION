@@ -1,0 +1,40 @@
+Package: LipidRT
+Type: Package
+Title: Lipid Annotation Curation and RT Prediction for LC-MS Lipidomics
+Version: 0.1.0
+Authors@R: c(
+    person(
+        given = "Celia",
+        family = "Regal",
+        email = "celia_regal@iislafe.es",
+        role = c("aut", "cre"),
+	comment = c(ORCID = "0009-0005-6238-5721")),
+    person(
+        given = "Maribel",
+        family = "Alcoriza",
+        email = "maribel_alcoriza@iislafe.es",
+        role = c("aut"),
+        comment = c(ORCID = "0000-0001-5691-2787")),
+    person(
+        given = "Juan Carlos",
+        family = "Garcia",
+        email = "juancarlos_garcia@iislafe.es",
+        role = c("ctb")),
+    person(
+        given = "Marta",
+        family = "Roca",
+        email = "marta_roca@iislafe.es",
+        role = c("ctb")),
+    person(
+        given = "Agustin",
+        family = "Lahoz",
+        email = "agustin.lahoz@uv.es",
+        role = c("ctb")))
+Description: Filtering of incorrect lipid annotations based on previous knowledge of RT chromatographic behaviour and building of RT-based models to increase and improve lipidome coverage.
+Depends: R (>= 4.0), utils, ggplot2
+License: GPL (>= 2)
+LazyData: TRUE
+Imports: readxl, scales, stats, graphics, grDevices, patchwork, DT, shinyWidgets
+Encoding: UTF-8
+Suggests: shiny, shinythemes, shinyjs, plotly
+Config/roxygen2/version: 8.1.0
