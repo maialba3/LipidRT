@@ -72,7 +72,9 @@ The input file must contain the following columns:
 
 ### Unannotated features
 
-The input file can include unannotated LC-MS features for which only the mz and retention time (RTsec or RTmin) values are available. For these rows, lipidname and adduct should be left empty.
+The input file can include unannotated LC-MS features for which only the mz and retention time (RTsec or RTmin) values are available. For these rows, lipidname and adduct should be left empty. 
+
+LipidRT will not perform isotope annotation, so the user must only add monoisotopic peaks.
 
 LipidRT uses the available lipid annotations to evaluate their chromatographic consistency and build RT-based models. Unannotated features can then be evaluated as potential candidates for new lipid annotations based on their m/z and their compatibility with the expected chromatographic behaviour.
 
